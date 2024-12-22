@@ -9,8 +9,8 @@ function maxProfit(prices) {
         if (currentProfit > maxProfit) {
             maxProfit = currentProfit
         } else {
-            min = prices[i];
             totalProfit += maxProfit;
+            min = prices[i];
             maxProfit = 0;
         }
     }
